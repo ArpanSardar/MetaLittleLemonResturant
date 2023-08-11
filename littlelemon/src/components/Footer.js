@@ -13,27 +13,19 @@ export default function Footer() {
           <h1 className="footer-header">Navigation</h1>
           <ul className="footer-links">
             <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-            <a
-              href="./"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Menu
-            </a>
             <Link to="/reservations">Reservations</Link>
-            <Link to="/order">Order</Link>
-            <Link to="/login">Login</Link>
+            <Link to="/order">Order online</Link>
+            <Link to="/about">About</Link>
           </ul>
         </li>
 
         <li>
           <h1 className="footer-header">Contact</h1>
           <ul className="footer-links">
-            <li>2395 Maldove Way,</li>
-            <li>Chicago Illinois</li>
+            <li>Sonarpur,</li>
+            <li>Kolkata, India</li>
             <br></br>
-            <li>(629)-243-6827</li>
+            <li>(+XX) XXXXXXXXXX</li>
             <br></br>
             <a
               href="mailto: info@littlelemon.com"

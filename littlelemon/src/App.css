@@ -169,7 +169,7 @@ Link:link {
 
 /* SPECIALS */
 .specials {
-  padding: 2rem 5rem 0 5rem;
+  padding: 2rem 5rem 2rem 5rem;
   animation-duration: 0.33s;
   animation-timing-function: ease-in-out;
   animation-name: slideDownFade;

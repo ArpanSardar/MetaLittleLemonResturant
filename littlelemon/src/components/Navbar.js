@@ -10,7 +10,7 @@ export default function Navbar() {
 
   return (
     <nav>
-      <nav className="burger">
+      <div className="burger">
         <img
           src={require("../assets/nav-logo.png")}
           alt="Little Lemon logo"
@@ -20,9 +20,11 @@ export default function Navbar() {
         <button className="burger-icon" onClick={handleToggle}>
           <img src={navbarOpen ? Close : Hamburger} alt="Navigation Bar" />
         </button>
-      </nav>
+      </div>
+      <div>
       <Navigation device="desktop" />
       {navbarOpen ? <Navigation device="mobile" /> : ""}
+      </div>
     </nav>
   );
 }
